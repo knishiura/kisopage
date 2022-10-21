@@ -3639,7 +3639,7 @@ Line2list(strorg):=(
   stL;
 );
 Seteditable(5,["y=","Size=18","Width=500"]);
-Text5.xy=[0.5,7.5];//[0.5,10.5];
+Text5.xy=[0,7.5];//[0.5,10.5];
 Text115.xy=[9,-10];
 Str="";
 StrL=[];
@@ -3652,7 +3652,7 @@ dispflg=0;
 tpos=[1,6];//[11,9]
 dpos=[0,-1.2];
 
-poskey=[11,-12];//[11,-12];
+poskey=[0,-18];//[11,-12];
 dxL=prepend(20,apply(1..4,15));//20
 dy=16;
 nmove=[0,-0.3];
@@ -4020,7 +4020,7 @@ var cdy = CindyJS({
   geometry: [
     {name: "SW", type: "Free", pos: [-3.14159265359, -4.0, 1.0], color: [1.0,1.0,1.0], labeled: false, size: 2.0, border:false },
     {name: "NE", type: "Free", pos: [4.0, 1.1793869159865928, 0.2948467289966482], color: [1.0,1.0,1.0], labeled: false, size: 2.0, border:false },
-    {name: "Text5", type: "EditableText", pos: [-0.26666666666666666, -4.0, -0.5333333333333333], color: [0.0, 0.0, 0.0], fillcolor: [1.0, 1.0, 1.0], fillalpha: 1.0, minwidth: 500, text: "y=", textsize: 18.0},
+    {name: "Text5", type: "EditableText", pos: [-0.0, -4.0, -0.5333333333333333], color: [0.0, 0.0, 0.0], fillcolor: [1.0, 1.0, 1.0], fillalpha: 1.0, minwidth: 500, text: "y=", textsize: 18.0},
     {name: "Text87", type: "Button", pos: [4.0, -2.8869565217391306, 0.34782608695652173], color: [0.0, 0.0, 0.0], fillcolor: [1.0, 1.0, 0.0], fillalpha: 0.27272728085517883, text_fontfamily: "monospace", script: "funflg=1;name=\"sin(\";", text: "_ _", textsize: 18.0},
     {name: "Text88", type: "Button", pos: [4.0, -2.3304347826086955, 0.34782608695652173], color: [0.0, 0.0, 0.0], fillcolor: [1.0, 1.0, 0.0], fillalpha: 0.27272728085517883, text_fontfamily: "monospace", script: "funflg=1;name=\"cos(\";", text: "_ _", textsize: 18.0},
     {name: "Text89", type: "Button", pos: [4.0, -3.4434782608695653, 0.34782608695652173], color: [0.0, 0.0, 0.0], fillcolor: [1.0, 1.0, 0.0], fillalpha: 0.27272728085517883, text_fontfamily: "monospace", script: "funflg=1;name=\"tan(\";", text: "_ _", textsize: 18.0},
@@ -4064,9 +4064,9 @@ var cdy = CindyJS({
   ],
   ports: [{
     id: "CSCanvas",
-    width: 940,
-    height: 624,
-    transform: [{visibleRect: [-9.49748479336693, 8.887721845847325, 20.19210462483553, -10.821111980704094]}],
+    width: 793,
+    height: 625,
+    transform: [{visibleRect: [-11.851183973555118, 9.829801863404976, 24.265783287494845, -18.635651526451554]}],
     grid: 1,
     background: "rgb(247,247,247)"
   }],
